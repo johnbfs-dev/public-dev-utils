@@ -1,0 +1,26 @@
+[project]
+name = ""
+version = "0.1.0"
+requires-python = ">=3.8"
+description = ""
+authors = [
+    {name = "", email = ""}
+]
+readme = ""
+dependencies = [
+    ""
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit >= 3.6.2",
+    "build >= 1.1.1"
+]
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
